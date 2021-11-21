@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "user-service"
+  couchbase:
+    connection-string: "couchbase"
+    username: "Administrator"
+    password: "password"
+
+  data:
+    couchbase:
+      bucket-name: "article_bucket"
+
+server:
+  port: 8085
+
