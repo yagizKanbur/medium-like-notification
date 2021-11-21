@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: "user-service"
+  couchbase:
+    connection-string: "couchbase"
+    username: "Administrator"
+    password: "password"
+
+  data:
+    couchbase:
+      bucket-name: "user_bucket"
+
+
+
